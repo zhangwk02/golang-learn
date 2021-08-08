@@ -14,6 +14,7 @@ import (
 }
 */
 
+// defer
 func f1() int {
 	x := 5
 	defer func() {
