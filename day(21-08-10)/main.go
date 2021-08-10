@@ -12,6 +12,7 @@ type dog struct {
 	name string
 }
 
+//当结构体比较大的时候尽量使用结构体指针，减少程序的内存开销
 func newPerson(name string, age int) *person {
 	return &person{
 		name,
