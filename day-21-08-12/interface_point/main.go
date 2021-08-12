@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// 使用值接受者和指针接受者区别
 type animal interface {
 	move()
 	eat(string)
